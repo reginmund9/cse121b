@@ -4,7 +4,7 @@
 
 /* Step 2 - Variables */
 let fullname = "Ramon Vargas";
-let currentYear = "2023";
+let currentYear = new Date().getFullYear();
 let profilePicture = 'images/myself.PNG';
 
 /* Step 3 - Element Variables */
@@ -21,10 +21,10 @@ imageElement.setAttribute('alt', `Profile image of ${fullname}`);
 
 
 /* Step 5 - Array */             /*DUDA-no se refleja cuando doy "live server"*/
-const favoritefoods=["Rice", "Tika Masala", "Prioshki", "Steak", "Banana Cream Pie"];
+const favoritefoods=["Chicken", "Pizza", "Oat", "Steak", "Apple Cream Pie"];
 foodElement.innerHTML = favoritefoods;
 
-const meal = "potato";
+const meal = "Cheesecake";
 favoritefoods.push(meal);
 foodElement.innerHTML += `<br>${favoritefoods}`;
 
