@@ -3,6 +3,8 @@
 /* Step 1 - Setup type tasks - no code required */
 
 /* Step 2 - Variables */
+//Declare and instantiate a variable to hold your name. 
+//Identify the variable as "fullName".
 let fullname = "Ramon Vargas";
 let currentYear = new Date().getFullYear();
 let profilePicture = 'images/myself.PNG';
