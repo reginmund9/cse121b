@@ -60,7 +60,7 @@ document.querySelector('#divideNumbers').addEventListener('click', divideNumbers
 // Declare and instantiate a variable to store the current date
 let currentDate = new Date();
 // Declare a variable to hold the current year and use getFullYear() to assign it
-const currentYear = currentDate.getFullYear();
+let currentYear = currentDate.getFullYear();
 // Assign the current year variable to an HTML form element with ID "year"
 currentYear = document.querySelector('#year').innerHTML; 
 
