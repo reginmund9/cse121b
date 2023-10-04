@@ -83,3 +83,4 @@ let multiplyArray = numbersArray.map(number => number * 2);
 document.querySelector('#sumOfMultiplied').innerHTML = multiplyArray.reduce((sum, number) => sum + number);
 
 
+
