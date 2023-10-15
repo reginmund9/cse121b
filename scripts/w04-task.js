@@ -24,15 +24,15 @@ let myProfile = {
 /* Populate Profile Object with placesLive objects */
 myProfile.placeLived.push(
     {
-        place: 'Bolivia',
+        place: 'Tarija, Bolivia',
         length: '16 years'
     },
     {
-        place: 'Costa Rica',
+        place: 'San Jose, Costa Rica',
         length: '11 years'
     },
     {
-        place: 'Argentina',
+        place: 'Buenos Aires, Argentina',
         length: '1 year'
     }
 );
