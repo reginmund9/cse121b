@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainpro.css">
+    <title>Crypto Information App</title>
+</head>
+<body>
+    <div id="app-container">
+        <h1>Crypto Information App</h1>
+        <div id="output-container"></div>
+        <label for="filterSelect">Choose Filter:</label>
+        <select id="filterSelect">
+            <option value="all">All</option>
+            <option value="positive">Positive Change</option>
+            <option value="negative">Negative Change</option>
+            <option value="above1b">Market Cap Above 1 Billion</option>
+        </select>
+        <button id="getDataBtn">Get Crypto Data</button>
+    </div>
+    <script type="module" src="poke.js"></script>
+</body>
+</html>

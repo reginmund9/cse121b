@@ -22,15 +22,20 @@ let myProfile = {
 
 
 /* Populate Profile Object with placesLive objects */
-myProfile.placeLived.push({
-    place: 'Bolivia',
-    length: '17 years'
-});
-myProfile.placeLived.push({
-    place: 'Costa Rica',
-    length: '11 years'
-});
-
+myProfile.placeLived.push(
+    {
+        place: 'Bolivia',
+        length: '16 years'
+    },
+    {
+        place: 'Costa Rica',
+        length: '11 years'
+    },
+    {
+        place: 'Argentina',
+        length: '1 year'
+    }
+);
 
 /* DOM Manipulation - Output */
 
@@ -49,9 +54,9 @@ myProfile.favoriteFoods.forEach(food => {
 
 /* Hobbies List */
 myProfile.hobbies.forEach(hobby => {
-    let ul = document.createElement('ul');
-    ul.textContent = hobby;
-    document.querySelector('#hobbies').appendChild(ul);
+    let li = document.createElement('li');
+    li.textContent = hobby;
+    document.querySelector('#hobbies').appendChild(li);
 });
 
 /* Places Lived DataList */
@@ -64,5 +69,4 @@ myProfile.placeLived.forEach(place => {
 
     document.querySelector('#places-lived').appendChild(dt);
     document.querySelector('#places-lived').appendChild(dd);
-})
-
+});
