@@ -15,14 +15,14 @@ let myProfile = {
         'Dancing',
         'Basketball'
     ],
-    placeLived: [
+    placesLived: [
         
     ]
 };
 
 
 /* Populate Profile Object with placesLive objects */
-myProfile.placeLived.push(
+myProfile.placesLived.push(
     {
         place: 'Tarija, Bolivia',
         length: '16 years'
@@ -60,7 +60,7 @@ myProfile.hobbies.forEach(hobby => {
 });
 
 /* Places Lived DataList */
-myProfile.placeLived.forEach(place => {
+myProfile.placesLived.forEach(place => {
     let dt = document.createElement('dt');
     dt.textContent = place.place;
 
