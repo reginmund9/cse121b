@@ -1,4 +1,4 @@
-// app.js
+
 
 // Function to fetch cryptocurrency data from the CoinCap API
 async function fetchCryptoData() {
@@ -33,17 +33,6 @@ function displayCryptoData(cryptoArray, chosenFilter) {
               Change (24h): ${crypto.changePercent24Hr}%
           `;
 
-          /*/ Additional styling based on the chosen filter
-          switch (chosenFilter) {
-              case 'positive':
-                  listItem.style.color = crypto.changePercent24Hr > 0 ? 'green' : 'black';
-                  break;
-              case 'negative':
-                  listItem.style.color = crypto.changePercent24Hr < 0 ? 'red' : 'black';
-                  break;
-              default:
-                  break;
-          }*/
 
           list.appendChild(listItem);
       });
